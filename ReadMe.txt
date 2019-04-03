@@ -1,4 +1,4 @@
-This solution is a simple web application that allows users to have a 
+This solution is a simple web application that allows users to have a
 set of shipments associated with their customer account.
 
 Email the same zipped archive of the same solution meghana at meghana.chillal@gmail.com
@@ -12,17 +12,17 @@ There is script file located in the "SQLScript.sql" located in the SQL Script Fo
 Create a database and using SQL Management Console to execute the script to populate the data.
 Note: You will have to update the Web.config to reference your DB name/credentials
 
-Item 2: 
+Item 2:
 There is one compilation error in the project fix it.
 
 Please Answer:
 What was it?  How did you fix?
-Ans:The name of the property "ServiceTypes" which was defined was wrongly mention in Datamodel as "ServiceType" 
+Ans:The name of the property "ServiceTypes" which was defined was wrongly mention in Datamodel as "ServiceType"
 changes name to "ServiceType" in model
 
 Item 3:
-The Shipments link in the menu bar of the app is not working, 
-It should link to the index page of the ShipmentsController 
+The Shipments link in the menu bar of the app is not working,
+It should link to the index page of the ShipmentsController
 
 Please Answer:
 What was it?  How did you fix?
@@ -30,7 +30,7 @@ The name 'shipppments' is miss spelt in _layout.cshtml.
 Changed it to shipments.
 
 Item 4:
-Change the name label for the Customer on the shipment view to be "Customer Name" in all 
+Change the name label for the Customer on the shipment view to be "Customer Name" in all
 places
 
 Please Answer:
@@ -39,7 +39,7 @@ The display name in customer model is specified as "First Name" in annotaion.it 
 
 Item 5:
 There is a bug in the code.
-The estimated ship date must be at least 24 hours after the Date Ordered(DateOrderPlaced).  
+The estimated ship date must be at least 24 hours after the Date Ordered(DateOrderPlaced).
 Fix the issue by adding code
 
 Please Answer:
@@ -47,12 +47,12 @@ What was wrong and what was required to fix?
 Ans:The result greater than o is represented in file EstShipDataValidate.cs,This is modified to result<0 in if condition.
 
 Item 6:
-When Editing customer Nitin, the province appear as Quebec.  
+When Editing customer Nitin, the province appear as Quebec.
 Not Ontario - the default for create.
 
 Please Answer:
 Explain why it was not Ontario or NS?
-Ans:In the database the value is present as NS this is not present in dropdown list 
+Ans:In the database the value is present as NS this is not present in dropdown list
 present in the edit view of customer thus the intial value is displayed.
 
 Item 7:
@@ -61,7 +61,7 @@ Hint: you can use @Html.ActionLink (does not have to be a button)
 
 Please Answer:
 Post the code of the button
-Ans: 
+Ans:
 <div class="col-md-1">
                 @Html.ActionLink("Create New", "Create", "Customers")
 </div>
@@ -70,4 +70,5 @@ Item 8: - Bonus Question
 Convert Text dates to date picker in the project
 
 
-i have added 
+i have added
+i have changed 
